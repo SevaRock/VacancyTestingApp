@@ -3,6 +3,13 @@ package pavel.klishin.vacancytestingapp;
 import android.app.Application;
 import android.test.ApplicationTestCase;
 
+import org.junit.Test;
+
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.security.spec.ECField;
+
 import dalvik.annotation.TestTargetClass;
 
 /**
@@ -13,6 +20,18 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         super(Application.class);
     }
 
-    //dd if=/dev/zero of=/sdcard/file.txt bs=1000000000M count=1
+    final String cmdFileCreateOverADB = "adb dd if=/dev/zero of=/sdcard/fileADB.txt bs=1000000000M count=1";
 
+    @Test
+    public void largeFileCreateTest() throws Exception {
+        try {
+            Process createFileProcess = Runtime.getRuntime().exec(cmdFileCreateOverADB);
+            DataOutputStream outputStream = new DataOutputStream(createFileProcess.getOutputStream());
+            outputStream.writeBytes(cmdFileCreateOverADB);
+            outputStream.flush();
+            createFileProcess.waitFor();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
