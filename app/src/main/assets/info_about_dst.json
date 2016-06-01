@@ -1,0 +1,160 @@
+{
+    "dst":
+    [{
+     "dst_name": "simple_number.dst",
+     "passwd":"11111111",
+     "date_expired":"31.12.2024"
+        },
+     {
+     "dst_name": "latin_letters.dst",
+     "passwd":"aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "cyrillic_letters.dst",
+     "passwd":"Инфотекс",
+     "date_expired":"31.12.2017"
+     
+        },
+     {
+     "dst_name": "special_letters.dst",
+     "passwd": "  ;\\\"\\\\\\\\'!?$)(}{][><|&/n\\n;  ;",
+     "date_expired":"31.12.2017"
+     
+        },
+     {
+     "dst_name": "latin_latters_and_numbers.dst",
+     "passwd": "1234abcd",
+     "date_expired":"31.12.2017"
+     
+        },
+     {
+     "dst_name": "test_dst_with_cyrillic_name.dst",
+     "passwd": "11111111",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "cyrillic_name_and_latin_passwd.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "cyrillic_name_and_latin_passwd_with_numbers.dst",
+     "passwd": "1234abcd",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "cyrillic_name_and_cyrillic_passwd.dst",
+     "passwd": "Инфотекс",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "cyrillic_name_and_special_letters_passwd.dst",
+     "passwd": "  ;\\\"\\\\\\\\'!?$)(}{][><|&/n\\n;  ;",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "keys_from_new_winncc.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2024"
+        },
+     {
+     "dst_name": "long_password.dst",
+     "passwd": "vf[,f,cjn'hl1234567890vf[,f,cjn",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "expired.dst",
+     "passwd": "11111111",
+     "date_expired":"30.06.2015"
+        },
+     {
+     "dst_name": "without_pz_for_mobile_client.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"30.06.2017"
+        },
+     {
+     "dst_name": "50_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "100_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "150_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "200_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "250_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "300_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "350_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "400_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "450_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "500_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "550_links.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "huge_dst_from_Vlad.dst",
+     "passwd": "dhfgjdgjv",
+     "date_expired":"31.12.2024"
+        },
+     {
+     "dst_name": "many_ws.dst",
+     "passwd": "098235009501",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "many_tunnels.dst",
+     "passwd": "11111111",
+     "date_expired":"31.12.2017"
+        },
+     {
+     "dst_name": "big.dst",
+     "passwd": " "
+        },
+     {
+     "dst_name": "500_links_with_3000_tunnels.dst",
+     "passwd": "11111111",
+     "date_expired":"31.12.2017",
+        },
+     {
+     "dst_name": "check_ping.dst",
+     "passwd": "aaaaaaaa",
+     "date_expired":"31.12.2017"
+     }]
+}
